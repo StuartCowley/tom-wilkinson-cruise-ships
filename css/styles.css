@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+  color: whitesmoke;
+}
+
+#viewport {
+  width: 640px;
+  height: 256px;
+  position: relative;
+  overflow-x: auto;
+  background-image: url('../images/water0.png');
+}
+
+#ports {
+  margin-top: 96px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#ports > .port {
+  width: 64px;
+  height: 32px;
+  background-image: url('../images/port.png');
+}
+
+#ship {
+  background-image: url('../images/ship.png');
+  position: absolute;
+  height: 64px;
+  width: 128px;
+}
+
+#sailButton {
+  border: 0;
+  background-color: #fb3640;
+  border-bottom: 4px solid #d8040f;
+  color: white;
+  font-family: inherit;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: 'Press Start 2P', cursive;
+  width: 200%;
+  text-align: left;
+}
+
+#sailbutton:focus {
+  background-color: #d8040f;
+  border-bottom-width: 0;
+  padding-top: 14px;
+}
+
+#message {
+  border: 0;
+  background-color: black;
+  border-bottom: 4px solid black;
+  color: white;
+  font-family: inherit;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200%;
+  font-family: 'Press Start 2P', cursive;
+  text-align: left;
+}
+
+#headsUpDisplay {
+  border: 0;
+  color: white;
+  font-family: inherit;
+  padding: 10px 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-family: 'Press Start 2P', cursive;
+  text-align: left;
+}
+
+#addPorts {
+  background-color: white;
+  color: #222222;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  margin: 10px;
+  padding: 10px;
+  border: solid 10px black;
+}
+
+#submit {
+  font-family: 'Press Start 2P', cursive;
+}
+
+#portName {
+  border: solid 1px black;
+  width: 90%;
+  text-align: center;
+  font-size: small;
+  margin: 15px;
+  padding: 5px;
+}
+
+/*
+#viewport {
+  width: 640px;
+  height: 256px;
+  position: relative;
+  overflow-x: auto;
+  background-image: url('../images/water0.png');
+}
+
+
+#sailButton {
+  border: 0;
+  background-color: black;
+  color: white;
+  font-family: inherit;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#sailButton:focus {
+  background-color: #d8040f;
+  border-bottom-width: 0;
+  padding-top: 14px;
+}
+
+#ports {
+  margin-top: 96px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#ports > .port {
+  width: 64px;
+  height: 32px;
+  background-image: url('../images/port.png');
+}
+
+#ship {
+  background-image: url('../images/ship.png');
+  position: absolute;
+  height: 64px;
+  width: 128px;
+}
+
+#message {
+  border: 0;
+  background-color:white;
+  color: black;
+  font-family: inherit;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#headsUpDisplay {
+  border: 0;
+  background-color: black;
+  color: white;
+  font-family: inherit;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+*/
